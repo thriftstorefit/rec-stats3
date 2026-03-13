@@ -3,8 +3,8 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Header from '../components/Header';
 import StatTable from '../components/StatTable';
-import { getPlayers, getGames, addPlayer, deletePlayer } from '../lib/db';
-import { sumTotals, calcAverages, calcShooting, calcAdvanced, calcRecord } from '../lib/stats';
+import { getPlayers, getGames, addPlayer, deletePlayer } from '../../lib/db';
+import { sumTotals, calcAverages, calcShooting, calcAdvanced, calcRecord } from '../../lib/stats';
 
 const POSITIONS = ['PG','SG','SF','PF','C'];
 
